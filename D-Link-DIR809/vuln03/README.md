@@ -12,7 +12,7 @@ Here is the description,
 
 1. The `get_var` function extracts user input from the a http request. For example, the code below will extract the value of the key "curUid" in the http post request which is completely under the attacker's control. 
 2. The string `v4` obtained from user is then passed to `sub_800FE9CC` as the third argument. 
-3. In the function `sub_800FE9CC`, argument `a3` is copied to stack using `strcpy` without any check. So we can make the stack buffer overflow in `v8`. (See the second figure below. )
+3. In the function `sub_800FE9CC`, argument `a3` is copied onto the stack using `strcpy` without any check. So we can make the stack buffer overflow in `v8`. (See the second figure below. )
 
 ![2021-05-10_10h03_30](README/2021-05-10_10h03_30.png)
 

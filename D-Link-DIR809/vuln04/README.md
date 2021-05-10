@@ -11,7 +11,7 @@ In the function `FUN_8004776c` ( page `/formVirtualApp` ), we find a stack overf
 Here is the description,  
 
 1. The `get_var` function extracts user input from the a http request. For example, the code below will extract the value of a key of format `"name_%d"` in the http post request which is completely under the attacker's control. 
-2. The string `pcVar2` obtained from user is copied to stack using `strcpy` without checking its length. So we can make the stack buffer overflow in `local_f8`. 
+2. The string `pcVar2` obtained from user is copied onto the stack using `strcpy` without checking its length. So we can make the stack buffer overflow in `local_f8`. 
 
 ![2021-05-10_10h22_15](README/2021-05-10_10h22_15.png)
 

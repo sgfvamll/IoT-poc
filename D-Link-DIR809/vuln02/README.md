@@ -11,7 +11,7 @@ In the function `FUN_80034d60` ( page `/formStaticDHCP` ), we find a stack overf
 Here is the description,  
 
 1. The `get_var` function extracts user input from the a http request. For example, the code below will extract the value of a key of format `"hostName_%d"` in the http post request which is completely under the attacker's control. 
-2. The string `pcVar1` obtained from user is copied to stack using `strcpy` without any check. So we can make the stack buffer overflow in `acStack386`. 
+2. The string `pcVar1` obtained from user is copied onto the stack using `strcpy` without checking its length. So we can make the stack buffer overflow in `acStack386`. 
 
 ![2021-05-10_09h14_38](README/2021-05-10_09h14_38.png)
 
