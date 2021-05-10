@@ -1,6 +1,6 @@
 # D-Link DIR809 Vulnerability
 
-The Vulnerability is in page `/formVirtualServ` which influence the latest version of this router OS. 
+The Vulnerability is in page `/formVirtualServ` which influences the latest version of this router OS. 
 
 The firmware version is [DIR-809Ax_FW1.12WWB03_20190410](http://www.dlinktw.com.tw/techsupport/ProductInfo.aspx?m=DIR-809) 
 
