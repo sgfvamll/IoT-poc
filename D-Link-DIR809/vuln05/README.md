@@ -44,5 +44,5 @@ settingsChanged=1&curTime=1620559041239&HNAP_AUTH=6946CD2354C87A2E9E189EFFB61EEC
 
 ## Acknowledgment
 
-Credit to  [@peanuts62](https://github.com/peanuts62), [@Yu3H0](https://github.com/Yu3H0/), [@Lnkvct](https://github.com/Lnkvct/IoT-poc) from Shanghai Jiao Tong University and TIANGONG Team of Legendsec at Qi'anxin Group.
+Credit to  [@peanuts62](https://github.com/peanuts62), [@Ainevsia](https://github.com/Ainevsia), [@Lnkvct](https://github.com/Lnkvct/IoT-poc) from Shanghai Jiao Tong University and TIANGONG Team of Legendsec at Qi'anxin Group.
 
