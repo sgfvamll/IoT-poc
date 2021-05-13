@@ -6,7 +6,7 @@ The firmware version is [DIR-809Ax_FW1.12WWB03_20190410](http://www.dlinktw.com.
 
  ## Vulnerability description
 
-In the function `FUN_80040af8`, which is called by `FUN_80041fc4`( page `/formWlanSetup` ), we find a stack overflow vulnerability. Each of them allows attackers to execute arbitrary code on system via a crafted post request. 
+In the function `FUN_80040af8`, which is called by `FUN_80041fc4`( page `/formWlanSetup` ), we find a stack overflow vulnerability, which allows attackers to execute arbitrary code on system via a crafted post request. 
 
 Here is the description of the first vulnerability,  
 
