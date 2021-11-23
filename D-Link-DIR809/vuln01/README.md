@@ -4,7 +4,12 @@ The Vulnerability is in page `/formVirtualServ` which influences the latest vers
 
 The firmware version is [DIR-809Ax_FW1.12WWB03_20190410](http://www.dlinktw.com.tw/techsupport/ProductInfo.aspx?m=DIR-809) 
 
- ## Vulnerability description
+## Progress
+
+- Confirmed by vendor. 
+
+
+## Vulnerability description
 
 In the function `FUN_8004776c` ( page `/formVirtualServ` ), we find three stack overflow vulnerabilities which are of the same type. Each vulnerability allows attackers to execute arbitrary code on system via a crafted post request. 
 
